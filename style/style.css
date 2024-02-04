@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    background-color: #C3D9C8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #EAA06B;
+    text-align: center;
+    height: 70px;
+    padding: 0%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+header nav ul li{
+    list-style-type: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#homeicon{
+    width: 40px;
+    height: 40px;
+}
+
+#formicon{
+    width: 25px;
+    height: 35px;
+}
+
+
+
+
+
+
+/* p1 */
+
+.p1image1{
+    display: flex;
+    justify-content: center;
+}
+
+.p1image1{
+    width: 375px;
+    height: 270px;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .search-input{
+    width: 300px;
+    height: 42px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .search-btn{
+    background-color: #EAA06B;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .search-img{
+    width: 35px;
+    height: 35px;
+  }
+
+.p1h1{
+    text-align: left;
+}
+
+.p1logo{
+    width: 180px;
+    height: 180px;
+}
+
+.p1container1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.p1kopje1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.p1kopje1{
+    width: 350px;
+    height: 280px;
+    background-color: #F3F8F4;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 8px;
+}
+
+.p1container234{
+    display: flex;
+    justify-content: center;
+}
+
+.p1container234{
+    width: 300px;
+    height: 390px;
+    background-color: #F3F8F4;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.p1container234img{
+    display: flex;
+    justify-content: center;
+}
+
+.p1container234img{
+    width: 260px;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+/* page2 */
+.p2image1{
+    display: flex;
+    justify-content: center;
+}
+
+.p2image1{
+    width: 375px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.p2h1{
+    text-align: center;
+}
+
+.p2profiledrawing{
+    display: flex;
+    justify-content: center;
+}
+
+.p2profiledrawing{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.p2container1{
+    width: 350px;
+    height: 335px;
+    background-color: #F3F8F4;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* page3 */
+
+.p3image{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .p3image{
+        width: 375px;
+        height: 200px;
+        background-color: white;
+        text-align: center;
+        margin: auto;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .p3container1{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        background-color: #F3F8F4;
+        text-align: center;
+        border-radius: 10px;
+        overflow: scroll;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    
+    .p3container2{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        background-color: #F3F8F4;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    .p3contactform{
+        display: flex;
+        justify-content: center;
+        }
+        
+        .p3contactform{
+            flex-direction: column;
+            width: 375px;
+            height: 500px;
+            background-color: #2E525A;
+            color: white;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .form-control{
+            width: 330px;
+        }
+        
+        .form-control-extra{
+            width: 330px;
+            height: 200px;
+        }
+
+
+
+
+
+/* footer! */
+footer{
+    display: flex;
+    justify-content: center;
+ }
+
+ footer{
+    width: 100%;
+    height: 205px;
+    background-color: #795A44;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 70px;
+ }
